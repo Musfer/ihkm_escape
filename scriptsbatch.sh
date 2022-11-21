@@ -27,7 +27,7 @@ nsteps=7    #tau_rel = dtausource*nsteps - 0.04 = 0.36
 ((tauth=$tau0+$nsteps*$dtau*$steps-$dtau))
 taurel=1.36    #tau0 + nsteps*(steps*dtau)  - dtau
 nmin=0
-nmax=100
+nmax=10
 nurqmd=600
 esw=0.5
 # EoS 0 - AZHYDRO; 1 - chiral
